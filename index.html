@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           background-color: antiquewhite; 
+        }
+        header{
+            text-align: center;
+        }
+        .menu{
+            width: 20%;
+            float: left;
+            background-color: aquamarine;
+        }
+        .menu ul{
+            list-style: none;
+        }
+        .menu ul li {
+            padding: 5px;
+        }
+        .menu ul a:link,
+        .menu ul a:visited,
+        .menu ul a:active {
+            text-decoration: none;
+            color: black;
+        }
+        .menu ul li :hover{
+            background-color: brown;
+            font-weight: bold;
+        }
+        #content{
+        width: 80%;
+        float:left;
+        }
+        #content article{
+            margin: 10px;
+        }
+        article h1 {
+            color: cadetblue;
+            border-bottom: violet solid 1px;
+           
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+        <h1>
+            practica html5
+        </h1></header>
+        <nav class="menu">
+        <ul>
+            <li ><a href="#">inicio</a></li>
+            <li ><a href="#">agua</a></li>
+            <li><a href="#">fuego</a></li>
+            <li><a href="#">tierra</a></li>
+        
+        </ul>
+    </nav>
+        <section id="content">
+            <article><h1 >Articulo 1</h1></article>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur natus illum, veniam facilis, repudiandae fuga exercitationem eveniet veritatis consequatur totam officiis vitae. Facere aspernatur consequatur consequuntur laudantium est fugiat quaerat.</p>
+            <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+                <li>item 4</li>
+            </ul>
+            <article><h1 >Articulo 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eius pariatur amet neque officia culpa, veniam consectetur et. Possimus nemo in ducimus nobis libero maiores, est nulla? Quos, cumque non.</p>
+            </article>
+        </section>
+        
+        <footer>pie de pagina</footer>
+    </main>
+</body>
+</html>
